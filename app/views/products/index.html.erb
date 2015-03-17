@@ -7,4 +7,6 @@
   <p><%= product.price %></p>
 
   <%= link_to 'Show product', product_path(product) %>
+  <%= link_to 'Edit product', edit_product_path(product) %>
+  <%= link_to 'Destroy product', product, method: :delete %>
 <% end %>
